@@ -2,6 +2,7 @@ Flask==1.1.2
 requests==2.24.0
 numpy==1.19.0
 Werkzeug==1.0.1
-torchvision==0.6.0
-torch==1.5.0
+https://download.pytorch.org/whl/cpu/torch-1.6.0%2Bcpu-cp36-cp36m-linux_x86_64.whl # cpu-only for heroku free-tier
+torchvision
+gunicorn
 Pillow==7.2.0
